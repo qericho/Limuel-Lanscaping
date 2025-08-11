@@ -2,7 +2,7 @@ const ServicesCard = ({ h3, p, icon, img }) => {
   return (
     <div className="text-primary">
       <div
-        className="bg-[#FFFFFF] rounded-2xl flex w-[300px] md:w-[350px] lg:w-[250px] h-full
+        className="bg-[#FFFFFF] rounded-2xl flex w-[250px] h-full
       justify-center flex-col gap-y-10 p-4 shadow-sm"
       >
         <div className="flex items-center justify-between">
