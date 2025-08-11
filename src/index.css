@@ -13,3 +13,7 @@
 body {
   font-family: var(--font-inter);
 }
+
+.pause-on-hover:hover {
+  animation-play-state: paused;
+}
