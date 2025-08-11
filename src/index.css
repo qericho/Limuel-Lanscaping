@@ -18,3 +18,9 @@ body {
 .pause-on-hover:hover {
   animation-play-state: paused;
 }
+
+@media (max-width: 400px) {
+  body {
+    width: 400px;
+  }
+}

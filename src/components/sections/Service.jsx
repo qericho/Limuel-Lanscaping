@@ -4,7 +4,7 @@ import ServicesCard from "../ui/card/ServicesCard";
 
 const Service = () => {
   return (
-    <div>
+    <section>
       <div>
         <Headings
           style={
@@ -29,7 +29,7 @@ const Service = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

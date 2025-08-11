@@ -22,7 +22,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="w-full h-full">
+    <section className="w-full h-full">
       {/* Gradient-Top-Right */}
       <div className="absolute top-0 right-0 w-[300px] md:w-[500px] z-[-1]">
         <img
@@ -88,7 +88,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
