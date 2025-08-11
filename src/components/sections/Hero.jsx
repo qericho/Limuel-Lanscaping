@@ -4,7 +4,7 @@ import { FaPlay, FaPause } from "react-icons/fa";
 import Grad_TR from "../../assets/img/grad-top-right.png";
 import Grad_L from "../../assets/img/grad-left.png";
 import Hero_LG from "../../assets/img/hero-logo.png";
-import Hero_VD from "../../assets/video/hero-video-2.mp4";
+import Hero_VD from "../../assets/video/hero-video-3.mp4";
 import LargeBtn from "../ui/button/LargeBtn";
 
 const Hero = () => {
@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       {/* Gradient-Left */}
-      <div className="absolute top-0 left-0 w-[200px] md:w-[500px] h-full md:h-[800px] z-[-1]">
+      <div className="absolute top-0 left-0 w-[200px] md:w-[500px] h-[1000px] md:h-[800px] z-[-1]">
         <img
           className="w-full h-full object-cover"
           src={Grad_L}
@@ -43,7 +43,7 @@ const Hero = () => {
 
       <div className="flex items-center justify-center flex-col gap-y-5  mt-20 md:mt-30 lg:mt-40 xl:mt-50">
         {/* Hero Content */}
-        <div className="flex items-center flex-col mx-auto text-[var(--color-primary)] w-full lg:w-[760px] text-center">
+        <div className="flex items-center flex-col mx-auto text-primary w-full lg:w-[760px] text-center">
           <span className="animate-[spin_15s_linear_infinite] pause-on-hover my-5">
             <img src={Hero_LG} alt="" />
           </span>
@@ -63,7 +63,7 @@ const Hero = () => {
         </div>
 
         {/* Video with Conditional Overlay */}
-        <div className="group w-full xl:w-[1140px] h-full xl:h-[500px] mx-auto  overflow-hidden xl:px-0 px-10 relative ">
+        <div className="group w-full xl:w-[1140px] h-full xl:h-[500px] mx-auto  overflow-hidden xl:px-0 px-2 relative ">
           <video
             ref={videoRef}
             className=" rounded-4xl w-full h-full object-cover"
