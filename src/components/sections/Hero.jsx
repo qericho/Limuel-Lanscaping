@@ -47,7 +47,7 @@ const Hero = () => {
           <span className="animate-[spin_15s_linear_infinite] pause-on-hover my-5">
             <img src={Hero_LG} alt="" />
           </span>
-          <h1 className="text-[42px] md:text-[52px] lg:text-[72px] font-semibold">
+          <h1 className="text-[35px] md:text-[52px] lg:text-[72px] font-semibold">
             Best Landscaping Design & Maintenance
           </h1>
           <p className="text-[16px] md:text-[18px]">

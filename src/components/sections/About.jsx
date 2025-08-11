@@ -5,15 +5,15 @@ const desc =
   "We assist homeowners in saving time and effort by designing and upkeeping landscapes, lawns, and outdoor living areas that garner admiration. Our team comprises skilled maintenance professionals certified well-versed in effective landscape upkeep services to ensure the year-round health of your property.";
 const About = () => {
   return (
-    <section className="my-30">
+    <section className="my-10 md:my-20">
       <div
-        className="w-full xl:w-[1200px] mx-auto gap-y-20
+        className="w-full xl:w-[1200px] mx-auto gap-y-5
       flex xl:flex-row flex-col items-center justify-between p-4"
       >
         <div className="w-[350px] md:w-[500px]">
           <img className="w-full h-full object-cover" src={About_Img} />
         </div>
-        <div className="md:text-start text-center w-full lg:w-[800px] xl:w-[500px]">
+        <div className=" my-5 w-full lg:w-[800px] xl:w-[500px]">
           <Headings
             sm_title={"WHY CHOOSE US"}
             lg_title={"Take the hassle out of garden maintenance"}
