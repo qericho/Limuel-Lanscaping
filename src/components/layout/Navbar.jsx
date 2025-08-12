@@ -9,15 +9,13 @@ const Navbar = () => {
     <nav className="z-999">
       <div className="flex px-5 md:px-10 xl:px-40 py-2 items-center justify-between">
         {/* Logo */}
-        <span className="text-primary">
-          <h1 className="text-[24px] lg:text-[28px] font-bold flex gap-2 cursor-pointer">
-            <div className="flex">
-              <span>Lim</span>
-              <span className="md:flex hidden">uel</span>
-            </div>
-            <span className="md:flex hidden">Landscaping</span>
-          </h1>
-        </span>
+        <h1 className="text-primary text-[24px] lg:text-[28px] font-bold flex gap-2 cursor-pointer">
+          <span className="flex">
+            <span>Lim</span>
+            <span className="md:flex hidden">uel</span>
+          </span>
+          <span className="md:flex hidden">Landscaping</span>
+        </h1>
 
         {/* Desktop Links */}
         <ul className="lg:flex hidden font-semibold items-center gap-x-10">
