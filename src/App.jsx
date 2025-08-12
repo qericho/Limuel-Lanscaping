@@ -1,5 +1,7 @@
+import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
 import About from "./components/sections/About";
+import CTA from "./components/sections/CTA";
 import Faqs from "./components/sections/Faqs";
 import Hero from "./components/sections/Hero";
 import HowItWorks from "./components/sections/HowItWorks";
@@ -16,6 +18,8 @@ const App = () => {
       <HowItWorks />
       <Portfolio />
       <Faqs />
+      <CTA />
+      <Footer />
     </div>
   );
 };

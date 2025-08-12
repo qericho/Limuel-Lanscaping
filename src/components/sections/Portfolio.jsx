@@ -4,7 +4,7 @@ import Headings from "../ui/Headings";
 
 const Portfolio = () => {
   return (
-    <section>
+    <section className="px-2">
       <div className="w-full md:w-[620px] mx-auto text-center my-15">
         <Headings
           sm_title={data.portfolioSection.sm_title}
